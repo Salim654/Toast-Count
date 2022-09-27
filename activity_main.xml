@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/toabtn"
+        android:layout_width="395dp"
+        android:layout_height="99dp"
+
+        android:background="@color/blue"
+        android:text="Toast"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_centerVertical="true"
+        android:background="@color/yellow"
+
+        android:gravity="center"
+        
+        android:text="0"
+        android:textColor="@color/blue"
+        android:textSize="200sp" />
+    <Button
+        android:id="@+id/countbtn"
+        android:layout_width="395dp"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/blue"
+        android:text="Count"
+        android:textSize="30sp" />
+
+
+
+
+</RelativeLayout>
